@@ -1,7 +1,37 @@
-.center {
+.frontpage {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.logo-img {
     display: block;
-    margin-top:auto;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    margin-bottom: 50px;
+    width: 300px;
+}
+
+.input-text {
+    display: block;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+
+    line-height: 24px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+
+}
+
+.input-button {
+    margin-top: 20px;
+    background: #dfe1e5;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 14px;
 }
